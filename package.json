@@ -1,0 +1,15 @@
+{
+  "name": "circom-rsa",
+  "version": "1.0.0",
+  "description": "RSA circuit implementation in circom",
+  "main": "index.js",
+  "repository": "https://github.com/doubleblind-xyz/circom-rsa.git",
+  "author": "stevenhao <stevenhao@gmail.com>",
+  "license": "GPS-3.0",
+  "peerDependencies": {
+    "circomlib": "^2.0.3"
+  },
+  "devDependencies": {
+    "circom": "^0.5.46"
+  }
+}
