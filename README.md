@@ -18,8 +18,9 @@ component main { public [ a, b, p ] } = FpMul(10, 2); // toy example -- each big
 
 # technical notes
 - this circuit is intended to be used with RSASSA-PKCS1-v1_5 (see https://en.wikipedia.org/wiki/PKCS_1 and https://datatracker.ietf.org/doc/html/rfc8017#section-9.2). This is the signature scheme used by most applications that use RSA as their underlying cryptosystem
-- approximate circuit diagram (does not include PKCS_1 encoding): 
-![circom-rsa](https://user-images.githubusercontent.com/1988030/217059345-9ed95a1c-c766-455f-9032-c846f1759030.png)
+- circuit diagram
+![circom-rsa-diagram](https://user-images.githubusercontent.com/1988030/217060999-e897958a-a720-4dc9-bc2a-0dd7143a4f94.png)
+
 
 
 # todos (before publish)
