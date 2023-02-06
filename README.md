@@ -16,6 +16,12 @@ component main { public [ a, b, p ] } = FpMul(10, 2); // toy example -- each big
 } */
 ```
 
+# technical notes
+- this circuit is intended to be used with RSASSA-PKCS1-v1_5 (see https://en.wikipedia.org/wiki/PKCS_1 and https://datatracker.ietf.org/doc/html/rfc8017#section-9.2). This is the signature scheme used by most applications that use RSA as their underlying cryptosystem
+- circuit diagram: 
+![circom-rsa](https://user-images.githubusercontent.com/1988030/217059345-9ed95a1c-c766-455f-9032-c846f1759030.png)
+
+
 # todos (before publish)
 - fix the array lengths in ab_proper / getProperRepresentation? length mismatch + hardcoded
 - example for testing rsa.circom
